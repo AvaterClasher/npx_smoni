@@ -4,7 +4,6 @@ const cfonts = require('cfonts');
 const boxen = require('boxen');
 const chalk = require('chalk');
 const data = require('./myData.js');
-const asciiArt = require('./asciiArt');
 
 const showName = name => {
   const bigName = cfonts.render(name, {
@@ -14,7 +13,6 @@ const showName = name => {
   return bigName.string;
 };
 
-const showAsciiArt = () => asciiArt;
 
 const showLocation = () => `🌆   ${data.location} \n`;
 
@@ -32,7 +30,6 @@ const showLinks = () =>
 showCommand = () => chalk`{yellow $} {green npx ${data.packageName}}\n`;
 
 const displayAll = () => `
-${showAsciiArt()}
 
 ${showName(`${data.name.first} ${data.name.last}`)}
 
