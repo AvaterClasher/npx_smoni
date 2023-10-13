@@ -14,7 +14,7 @@ const showName = name => {
   return bigName.string;
 };
 
-// const showAsciiArt = () => asciiArt;
+const showAsciiArt = () => asciiArt;
 
 const showLocation = () => `🌆   ${data.location} \n`;
 
