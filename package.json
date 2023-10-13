@@ -1,0 +1,32 @@
+{
+  "name": "smoni",
+  "version": "0.1.1",
+  "description": "Soumyadip Moni Information",
+  "main": "index.js",
+  "bin": {
+    "smoni": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contact",
+    "Soumyadip Moni",
+    "business card"
+  ],
+  "author": "Ben Newton",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvaterClasher/npx_smoni.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AvaterClasher/npx_smoni/issues"
+  },
+  "homepage": "https://github.com/AvaterClasher/npx_smoni#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "cfonts": "^2.3.0",
+    "chalk": "^2.4.1"
+  }
+}
